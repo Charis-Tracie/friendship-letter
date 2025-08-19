@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friendship Letter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Hi Kairetu &#10084;&#65039;</h1>
+
+  <!-- Button -->
+  <button onclick="showMessage()">Tap Here</button>
+
+  <!-- Hidden Message -->
+  <div class="message" id="friendMessage">
+    Just a reminder, you are the best &#10084;&#127800;and i want you to know that i will always treasure you forever<br>
+    i love you&#10084;&#65039;<br>And i pray that all your paths will be fruitful &#127800;&#10024;
+  </div>
+
+  <!-- Pumping Heart (hidden by default) -->
+  
+
+  <script>
+    function showMessage() {
+      document.getElementById("friendMessage").style.display = "block";
+      document.body.classList.add("new-background");
+    
+    }
+  </script>
+</body>
+</html>
